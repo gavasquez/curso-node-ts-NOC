@@ -1,4 +1,7 @@
+import { envs } from "./config/plugins/envs.plugin";
 import { Server } from "./presentation/server";
+// Configuracion dotenv variables de entorno
+// import 'dotenv/config';
 
 
 (async () => {
@@ -6,5 +9,6 @@ import { Server } from "./presentation/server";
 })();
 
 function main() {
-    Server.start();
+    //Server.start();
+    // console.log(envs.PORT);
 }
