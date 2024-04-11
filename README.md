@@ -14,3 +14,8 @@ MAILER_EMIAL=
 MAILER_SECRET_KEY=
 PROD=
 ```
+
+## Obtener Gmail Key
+
+https://myaccount.google.com/security
+https://myaccount.google.com/u/0/apppasswords
