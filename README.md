@@ -6,6 +6,11 @@ El objetivo es crear una serie tareas usando Arquitectura Limpia con TypeScript
 
 1. clonar el archivo .env.template a .env
 2. Configurar las variables de entorno
+3. Ejecutar el comando ```npm install```
+4. Levantar las bases de datos con el comando
+```
+docker compose up -d
+```
 
 ```
 

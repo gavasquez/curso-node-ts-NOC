@@ -13,7 +13,7 @@ export class LogRepositoryImpl implements LogRepository {
         return this.logDatasource.saveLog(log);
     }
     async getLogs(severityLevel: LogSeverityLevel): Promise<LogEntity[]> {
-        return this.getLogs(severityLevel);
+        return this.logDatasource.getLogs(severityLevel);
     }
 
 }
